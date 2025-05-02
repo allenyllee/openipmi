@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  openipmi:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/workspace:cached
+    tty: true

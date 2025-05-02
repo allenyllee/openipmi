@@ -1,0 +1,16 @@
+{
+    "name": "OpenIPMI Dev",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "openipmi",
+    "workspaceFolder": "/workspace",
+    "customizations":{
+        "vscode": {
+            "extensions": [
+                "gxl.git-graph-3"
+            ],
+            "terminal.integrated.defaultProfile.linux": "bash"
+        }
+    },
+    // "postCreateCommand": "cd /workspace/OpenIPMI-* && ./configure && make",
+    "remoteUser": "vscode"
+}
