@@ -25,7 +25,8 @@ RUN apt-get update && apt-get install -y \
   libreadline-dev \
   libpopt-dev \
   libssl-dev \
-  libedit-dev
+  libedit-dev \
+  libtool
 
 # Set environment variable for library path
 ENV LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
